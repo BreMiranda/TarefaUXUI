@@ -82,4 +82,13 @@ A complexidade ciclomática do método `verificarUsuario` é calculada da seguin
 
 A complexidade ciclomática é **4**, o que indica que existem 4 caminhos básicos no método.
 
+
 ---
+## Como Gerar o Javadoc
+
+Para gerar a documentação Javadoc do projeto:
+
+1. Compile o código Java com os comentários Javadoc.
+2. Execute o seguinte comando no terminal:
+   ```bash
+   javadoc -d docs login/User.java
